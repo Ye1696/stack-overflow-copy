@@ -1,0 +1,44 @@
+.teams-section {
+  background-color: #2b2d6e;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.teams-section > h2 {
+  font-family: "Roboto Slab Bold", serif;
+  font-weight: 700;
+  max-width: 40.5128205rem;
+  width: 90%;
+  text-align: center;
+  font-size: 2.61538461rem;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  color: #fff;
+}
+
+.teams-section > p {
+  max-width: 32.4102564rem !important;
+  width: 90% !important;
+  text-align: center !important;
+  font-size: 1.30769231rem !important;
+  margin: 0 auto;
+  margin-bottom: 24px !important;
+  color: #fff;
+}
+
+.teams-section > a {
+  display: inline-block !important;
+  font-size: 1.15384615rem !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  color: #fff;
+  background-color: #f48024;
+  border-radius: 3px !important;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: auto;
+}
