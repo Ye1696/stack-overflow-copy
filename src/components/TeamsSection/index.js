@@ -1,4 +1,5 @@
 import React from "react";
+import { Cards } from "./Cards";
 
 export function TeamsSection() {
   return (
@@ -10,7 +11,9 @@ export function TeamsSection() {
         for accessing the right information in less time.
       </p>
       <a href="/teams">Learn more</a>
-      <div className="cards"></div>
+      <div className="cards">
+        <Cards />
+      </div>
     </section>
   );
 }

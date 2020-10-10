@@ -1,4 +1,5 @@
 .teams-section {
+  font-family: "Roboto Slab", serif;
   background-color: #2b2d6e;
   padding-top: 128px;
   padding-bottom: 128px;
@@ -7,7 +8,7 @@
 }
 
 .teams-section > h2 {
-  font-family: "Roboto Slab Bold", serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 700;
   max-width: 40.5128205rem;
   width: 90%;
@@ -19,6 +20,7 @@
 }
 
 .teams-section > p {
+  font-family: "Source Sans Pro", sans-serif;
   max-width: 32.4102564rem !important;
   width: 90% !important;
   text-align: center !important;
@@ -41,4 +43,122 @@
   text-decoration: none;
   cursor: pointer;
   user-select: auto;
+}
+
+.teams-section .cards {
+  max-width: 98.2307692rem;
+  padding-top: 32px;
+  margin: 0 auto;
+}
+
+.teams-section .cards-wrapper {
+  max-width: 98.2307692rem;
+  padding-left: 128px;
+  padding-right: 128px;
+  background-image: url(https://cdn.sstatic.net/Img/product/teams/illo-teams-pricing.svg?v=8afb8ac7c580);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 12px;
+  display: flex;
+}
+
+.teams-section .card {
+  flex-basis: calc(33.333333333333336% - 32px);
+  margin: 16px;
+  min-width: 16.2051282rem !important;
+  padding-bottom: 16px !important;
+  padding-top: 2px !important;
+  display: flex;
+  flex-direction: column !important;
+  border-radius: 7px !important;
+  background-color: #fff;
+  border-color: #e4e6e8;
+  border-style: solid !important;
+  border-width: 1px !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px 4px rgba(0, 0, 0, 0.05),
+    0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 24px !important;
+  margin-top: 32px !important;
+  font-size: 1.15384615rem !important;
+}
+
+.teams-section .card .title {
+  font-weight: 400;
+  margin: 0 0 1rem;
+  align-self: flex-start;
+  font-size: 1.30769231rem;
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+
+.card.basic .title {
+  color: #2f3337;
+  background-color: #c8ccd0;
+}
+.card.business .title {
+  color: #fff;
+  background-color: #3c4146;
+}
+.card.enterprise .title {
+  color: #fff;
+  background-color: #2b2d6e;
+}
+
+.teams-section .card .desc {
+  font-size: 14px;
+  font-weight: 300;
+  height: 32px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.teams-section .card .price {
+  color: #292729;
+  font-weight: 700;
+  line-height: 1;
+  font-size: 2.61538461rem;
+  padding-top: 12px;
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+.teams-section .card .price-desc {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #9199a1;
+  line-height: 1;
+  font-size: 1.15384615rem;
+  text-align: left;
+}
+
+.teams-section .card .divider {
+  margin: 24px 0;
+  height: 1px;
+}
+
+.card.basic .divider {
+  background-color: #e4e6e8;
+}
+.card.business .divider {
+  background-color: #d6d9dc;
+}
+.card.enterprise .divider {
+  background-color: #242729;
+}
+
+.teams-section .perks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.teams-section .perk {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.teams-section .perk svg {
+  /* width: 26px; */
+  margin-right: 12px;
 }
