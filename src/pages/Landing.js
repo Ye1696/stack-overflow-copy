@@ -1,5 +1,6 @@
 import React from "react";
 import { ActionSection } from "../components/ActionSection";
+import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { JobSection } from "../components/JobSection";
 import { LearnSection } from "../components/LearnSection";
@@ -17,6 +18,7 @@ export function Landing() {
       <ActionSection />
       <LearnSection />
       <JobSection />
+      <Footer />
     </div>
   );
 }
