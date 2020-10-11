@@ -431,3 +431,63 @@
 /* ////////////////////////// */
 /* ACTION-SECTION */
 /* ////////////////////////// */
+
+/* ////////////////////////// */
+/* LEARN-SECTION */
+/* ////////////////////////// */
+/* #region */
+.learn-section {
+  font-size: 1.15384615rem;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.learn-section > h3 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  width: 90%;
+  text-align: center;
+  font-size: 2.61538461rem;
+  margin: 0 auto 64px;
+}
+
+.learn-section .cards-wrapper {
+  display: flex;
+  max-width: 97.2307692rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.learn-section .card {
+  flex-basis: 25%;
+  padding-right: 32px;
+  text-align: left;
+}
+
+.learn-section .card > img {
+  margin-bottom: 16px;
+}
+
+.learn-section .card > h4 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 1.46153846rem;
+  margin-bottom: 16px;
+}
+
+.learn-section .card > p {
+  color: #292729;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.learn-section .card > p a {
+  color: #0077cc;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+}
+/* #endregion */
+/* ////////////////////////// */
+/* LEARN-SECTION */
+/* ////////////////////////// */
