@@ -1,4 +1,5 @@
 .teams-section {
+  font-family: "Roboto Slab", serif;
   background-color: #2b2d6e;
   padding-top: 128px;
   padding-bottom: 128px;
@@ -7,7 +8,7 @@
 }
 
 .teams-section > h2 {
-  font-family: "Roboto Slab Bold", serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 700;
   max-width: 40.5128205rem;
   width: 90%;
@@ -19,6 +20,7 @@
 }
 
 .teams-section > p {
+  font-family: "Source Sans Pro", sans-serif;
   max-width: 32.4102564rem !important;
   width: 90% !important;
   text-align: center !important;
@@ -41,4 +43,210 @@
   text-decoration: none;
   cursor: pointer;
   user-select: auto;
+}
+
+.teams-section .cards {
+  max-width: 98.2307692rem;
+  padding-top: 32px;
+  margin: 0 auto;
+}
+
+.teams-section .cards-wrapper {
+  max-width: 98.2307692rem;
+  padding-left: 128px;
+  padding-right: 128px;
+  background-image: url(https://cdn.sstatic.net/Img/product/teams/illo-teams-pricing.svg?v=8afb8ac7c580);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 12px;
+  display: flex;
+}
+
+.teams-section .card {
+  position: relative;
+  flex-basis: calc(33.333333333333336% - 32px);
+  margin: 16px;
+  min-width: 16.2051282rem !important;
+  padding-bottom: 16px !important;
+  padding-top: 2px !important;
+  display: flex;
+  flex-direction: column !important;
+  border-radius: 7px !important;
+  background-color: #fff;
+  border-color: #e4e6e8;
+  border-style: solid !important;
+  border-width: 1px !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px 4px rgba(0, 0, 0, 0.05),
+    0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 24px !important;
+  margin-top: 32px !important;
+  font-size: 1.15384615rem !important;
+}
+
+.teams-section .card .title {
+  font-weight: 400;
+  margin: 0 0 1rem;
+  align-self: flex-start;
+  font-size: 1.30769231rem;
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+
+.card.basic .title {
+  color: #2f3337;
+  background-color: #c8ccd0;
+}
+.card.business .title {
+  color: #fff;
+  background-color: #3c4146;
+}
+.card.enterprise .title {
+  color: #fff;
+  background-color: #2b2d6e;
+}
+
+.teams-section .card .desc {
+  font-family: "Source Sans Pro", sans-serif;
+  height: 32px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.teams-section .card .price {
+  color: #292729;
+  font-weight: 700;
+  line-height: 1;
+  font-size: 2.61538461rem;
+  padding-top: 12px;
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+.teams-section .card .price-desc {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #9199a1;
+  line-height: 1;
+  font-size: 1.15384615rem;
+  text-align: left;
+}
+
+.teams-section .card .divider {
+  margin: 24px 0;
+  height: 1px;
+}
+
+.card.basic .divider {
+  background-color: #e4e6e8;
+}
+.card.business .divider {
+  background-color: #d6d9dc;
+}
+.card.enterprise .divider {
+  background-color: #242729;
+}
+
+.teams-section .perks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.teams-section .perk {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.teams-section .perk svg {
+  margin-right: 12px;
+}
+
+.teams-section a[role="button"] {
+  font-family: "Source Sans Pro Bold", sans-serif;
+  font-weight: 700;
+  margin-top: auto;
+  align-self: stretch;
+  padding: 0.8em 32px;
+  outline: none;
+  line-height: 1.15384615;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 5px;
+  transition: background 0.1s ease-in-out;
+}
+
+.teams-section a[role="button"]:hover {
+  color: #fff !important;
+  background-color: #0095ff !important;
+}
+
+.card.basic a[role="button"] {
+  color: #2f3337;
+  background-color: #c8ccd0;
+}
+.card.business a[role="button"] {
+  color: #fff;
+  background-color: #3c4146;
+}
+.card.enterprise a[role="button"] {
+  color: #fff;
+  background-color: #2b2d6e;
+}
+
+.card .most-used {
+  color: #292729;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px 4px rgba(0, 0, 0, 0.05);
+  background-color: #e4e6e8;
+  border-color: #d6d9dc;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 100%;
+  padding: 8px 16px;
+  margin: 0 16px;
+  left: 0;
+  right: 0;
+  font-size: 13px;
+}
+
+.most-used p {
+  text-transform: uppercase;
+}
+
+.teams-section .links {
+  margin-top: 48px;
+  font-size: 1.15384615rem;
+  text-align: center;
+}
+
+.teams-section .links > a {
+  display: inline-block;
+  align-items: center;
+  text-decoration: none;
+  color: #bbc0c4;
+  cursor: pointer;
+  margin: 12px 24px;
+}
+
+.teams-section .links > a:hover {
+  color: #fff;
+}
+
+.teams-section .links > a > img {
+  margin-right: 8px;
+  vertical-align: middle;
 }
