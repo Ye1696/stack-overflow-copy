@@ -491,3 +491,84 @@
 /* ////////////////////////// */
 /* LEARN-SECTION */
 /* ////////////////////////// */
+
+/* ////////////////////////// */
+/* JOB-SECTION */
+/* ////////////////////////// */
+/* #region */
+.job-section {
+  position: relative;
+  background-color: #e1ecf4;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.job-section h3 {
+  text-align: left;
+  max-width: 97.2307692rem;
+  width: 90%;
+  margin: 0 auto 24px;
+  font-size: 2.61538461rem;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+}
+
+.job-section .jobs {
+  max-width: 97.2307692rem;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.job-section .cards-wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.job-section .card {
+  text-align: left;
+  flex-basis: 23%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 2px 6px rgba(0, 0, 0, 0.06),
+    0 3px 8px rgba(0, 0, 0, 0.09);
+  font-size: 1.15384615rem;
+  padding: 16px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: auto;
+  color: inherit;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.job-section .card > img {
+  margin-right: 16px;
+}
+
+.job-section .jobs > a {
+  color: #fff;
+  font-size: 1.15384615rem;
+  padding: 12px 24px;
+  background-color: #f48024;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 3px;
+  margin-left: 32px;
+}
+
+.job-section .cute-robot {
+  position: absolute;
+  bottom: -4px;
+  right: 64px;
+}
+
+/* #endregion */
+/* ////////////////////////// */
+/* JOB-SECTION */
+/* ////////////////////////// */
