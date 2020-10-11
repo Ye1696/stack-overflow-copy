@@ -14,6 +14,30 @@ export function TeamsSection() {
       <div className="cards">
         <Cards />
       </div>
+      <div className="links">
+        <a href="https://www.g2.com/products/stack-overflow-for-teams/">
+          <img
+            src="https://cdn.sstatic.net/Img/product/teams/endorsements/g2.svg?v=670bf9279910"
+            alt="G2"
+          />
+          <strong>Leader</strong>
+          Summer 2020
+        </a>
+        <a href="https://www.g2.com/products/stack-overflow-for-teams/">
+          <img
+            src="https://cdn.sstatic.net/Img/product/teams/endorsements/g2.svg?v=670bf9279910"
+            alt="G2"
+          />
+          <strong>Users Love Us</strong>
+        </a>
+        <a href="https://www.g2.com/products/stack-overflow-for-teams/">
+          <img
+            src="https://cdn.sstatic.net/Img/product/teams/endorsements/fastco.svg?v=5ebc802a76c7"
+            alt="Fast Company"
+          />
+          <strong>Most Innovative Companies</strong> 2019
+        </a>
+      </div>
     </section>
   );
 }

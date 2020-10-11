@@ -11,6 +11,8 @@ import {
   FiCloud,
   FiCode,
   FiUser,
+  FiTrello,
+  FiShield,
 } from "react-icons/fi";
 
 const cards = [
@@ -26,7 +28,7 @@ const cards = [
         text: "Free 30 day trial",
       },
       {
-        icon: <FiLock accentHeight={20} />,
+        icon: <FiShield size="24px" />,
         text: "Your own private space hosted on stackoverflow.com",
       },
       {
@@ -35,7 +37,6 @@ const cards = [
       },
     ],
     linkText: "Get started for free",
-    mostUsed: true,
   },
   {
     className: "business",
@@ -62,6 +63,7 @@ const cards = [
       },
     ],
     linkText: "Get started",
+    mostUsed: true,
   },
   {
     className: "enterprise",
@@ -76,7 +78,7 @@ const cards = [
         text: "Single sign-on with AD or SAML",
       },
       {
-        icon: <FiCloud />,
+        icon: <FiCloud size="22px" />,
         text: "Host on your cloud or servers – or our private managed cloud",
       },
       {
@@ -84,7 +86,7 @@ const cards = [
         text: "Robust read and write API",
       },
       {
-        icon: <FiUser />,
+        icon: <FiUser size="22px" />,
         text: "Your own customer success and community building representative",
       },
       {
@@ -108,6 +110,12 @@ export function Perk({ data }) {
 export function Card({ data }) {
   return (
     <div className={`card ${data.className}`}>
+      {data.mostUsed && (
+        <div className="most-used">
+          <p>most used</p>
+          <FiTrello size="18px" />
+        </div>
+      )}
       <h2 className="title">{data.title}</h2>
       <p className="desc">{data.desc}</p>
       <p className="price">{data.price}</p>
@@ -118,6 +126,9 @@ export function Card({ data }) {
           <Perk key={idx} data={perk} />
         ))}
       </ul>
+      <a role="button" href="https://stackoverflow.com/teams/create/basic">
+        {data.linkText}
+      </a>
     </div>
   );
 }
