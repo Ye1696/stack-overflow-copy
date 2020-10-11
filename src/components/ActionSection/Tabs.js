@@ -72,9 +72,10 @@ export function Tabs() {
     const newActiveTab = [...leftTabs, ...rightTabs].find(
       (tab) => tab.id === newActiveIndex
     );
-    setTimeout(() => {
+    const timerId = setTimeout(() => {
       setActiveTab(newActiveTab);
     }, 5000);
+    return () => clearInterval(timerId);
   }, [activeTab]);
 
   function handleTabClick(tab) {
