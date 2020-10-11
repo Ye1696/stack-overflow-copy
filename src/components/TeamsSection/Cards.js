@@ -4,7 +4,6 @@ import {
   FiCalendar,
   FiKey,
   FiArchive,
-  FiLock,
   FiBarChart2,
   FiThumbsUp,
   FiStar,

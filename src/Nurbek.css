@@ -1,3 +1,7 @@
+/* ////////////////////////// */
+/* TEAMS-SECTION */
+/* ////////////////////////// */
+/* #region */
 .teams-section {
   font-family: "Roboto Slab", serif;
   background-color: #2b2d6e;
@@ -250,3 +254,67 @@
   margin-right: 8px;
   vertical-align: middle;
 }
+/* #endregion */
+/* ////////////////////////// */
+/* TEAMS-SECTION */
+/* ////////////////////////// */
+
+/* ////////////////////////// */
+/* TALENTS-SECTION */
+/* ////////////////////////// */
+/* #region */
+.talents-section {
+  background-color: #f7f6f9;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.talents-wrapper {
+  display: flex;
+  width: 90%;
+  max-width: 81.025641rem;
+  margin: 0 auto;
+}
+
+.talent-card {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.talent-card:first-child {
+  margin-right: 64px;
+}
+
+.talent-card > img {
+  margin-bottom: 6px;
+}
+
+.talent-card > h4 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 2.07692308rem;
+  margin-bottom: 12px;
+}
+
+.talent-card > p {
+  font-size: 1.15384615rem;
+  margin-bottom: 24px;
+}
+
+.talent-card > a {
+  padding: 12px 24px;
+  color: #fff;
+  font-size: 1.15384615rem;
+  background-color: #f48024;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 3px;
+}
+/* #endregion */
+/* ////////////////////////// */
+/* TALENTS-SECTION */
+/* ////////////////////////// */
