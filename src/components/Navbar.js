@@ -1,13 +1,12 @@
 import React from "react";
-import { FiAlignJustify } from "react-icons/fi";
-import { FiSearch } from "react-icons/fi";
+import { FiAlignJustify, FiSearch } from "react-icons/fi";
 import LogoImage from "../assets/images/logo.png";
 export function Navbar() {
   return (
     <nav>
       <div className="Navbar">
         <div className="Navbar-logo">
-          <FiAlignJustify />
+          <FiAlignJustify size="20px" cursor="pointer" />
           <img className="logo" src={LogoImage} />
           <a className="Navbar-href" href="#">
             About
@@ -18,8 +17,10 @@ export function Navbar() {
           <a className="Navbar-href" href="#">
             For Teams
           </a>
-
-          <input className="Navbar-input" placeholder="Search..."></input>
+          <div className="input-search">
+            <FiSearch size="20px" color="grey" className="FiSearch" />
+            <input className="Navbar-input" placeholder="Search..."></input>
+          </div>
         </div>
         <div className="Navbar-button">
           <button className="Navbar-login">Log in</button>
