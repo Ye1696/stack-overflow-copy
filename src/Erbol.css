@@ -231,7 +231,56 @@ header {
   padding: 12px 24px;
   cursor: pointer;
 }
-.forDevelopers-card-button:hover,
-.forDevelopers-card-button-center:hover {
-  box-shadow: 0 1.5px 3px rgba(255, 255, 255, 0.7);
+
+/*-------ForBusinesses-----*/
+.forBusinesses {
+  background: #f7f6f9;
+  height: 700px;
+  padding: 128px 0;
+}
+
+.forBusinesses-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 0px 40.3625px 24px;
+}
+
+.forBusinesses-def {
+  width: 632px;
+  height: 65px;
+  margin: 24px auto 64px;
+  font-size: 17px;
+}
+
+.forBusinesses-cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.forBusinesses-card {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  align-items: center;
+  background: #fff;
+  border: 1px #e3e2e4 solid;
+  border-radius: 7px;
+  padding: 30px;
+}
+.forBusinesses-card-img {
+  width: 90px;
+  height: 90px;
+}
+.forBusinesses-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.forBusinesses-card-def {
+  font-size: 17px;
+}
+.forBusinesses-card-def-href {
+  text-decoration: none;
+  color: #f48024;
 }

@@ -8,6 +8,7 @@ import { Navbar } from "../components/Navbar";
 import { TalentsSection } from "../components/TalentsSection";
 import { TeamsSection } from "../components/TeamsSection";
 import { ForDevelopers } from "../components/ForDevelopers";
+import {ForBusinesses} from "../components/ForBusinesses";
 
 export function Landing() {
   return (
@@ -15,6 +16,7 @@ export function Landing() {
       <Navbar />
       <Header />
       <ForDevelopers />
+      <ForBusinesses/>
       <TeamsSection />
       <TalentsSection />
       <ActionSection />

@@ -12,7 +12,7 @@ export function ForDevelopers() {
             open community
           </a>{" "}
           for anyone that codes. We help you get answers to your toughest coding
-          questions, share knowledge with your coworkers in private, and find
+          questions, share knowledge with your coworkers in private, and find 
           your next dream job.
         </div>
         <div className="forDevelopers-cards">
